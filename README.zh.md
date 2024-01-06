@@ -5,9 +5,9 @@
 
 # 🐟「Sakana! React!] 石蒜React小组件
 
-[English](https://github.com/boiboif/sakana-react/blob/main/README.md) | [简体中文](https://github.com/boiboif/sakana-react/blob/main/README.zh.md)
+[English](https://github.com/Skyline-9/sakana-react-v2/blob/main/README.md) | [简体中文](https://github.com/Skyline-9/sakana-react-v2/blob/main/README.zh.md)
 
-[![NPM](https://img.shields.io/npm/v/sakana-react)](https://www.npmjs.com/package/sakana-react)
+[![NPM](https://img.shields.io/npm/v/sakana-react-v2?style=for-the-badge)](https://www.npmjs.com/package/sakana-react-v2)
 
 sakana-react 是一个使用 [react-spring](https://react-spring.io/) 构建的开箱即用的React组件，把它添加到你的React应用中吧！
 
@@ -30,7 +30,7 @@ yarn add sakana-react-v2
 ```
 作为React组件引入并使用
 ```ts
-import SakanaReact from 'sakana-react'
+import SakanaReact from 'sakana-react-v2'
 
 const App = () => {
 
