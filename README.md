@@ -7,7 +7,7 @@
 
 [English](https://github.com/Skyline-9/sakana-react-v2/blob/main/README.md) | [简体中文](https://github.com/Skyline-9/sakana-react-v2/blob/main/README.zh.md)
 
-[![NPM](https://img.shields.io/npm/v/sakana-react)](https://www.npmjs.com/package/sakana-react)
+[![NPM](https://img.shields.io/npm/v/sakana-react?style=for-the-badge)](https://www.npmjs.com/package/sakana-react)
 
 sakana-react-v2 is a widget react component built with [react-spring](https://react-spring.io/).
 
