@@ -15,10 +15,10 @@ sakana-react-v2 is a widget react component built with [react-spring](https://re
 
 ## Features
 
-- Build in takina and chisato character and use your own custom character.
-- Drag the character and release it, it will jump back and forth around the character.
-- Use controler to move your component and change character.
-- Support custom controller.
+- Built in Takina and Chisato or use your own custom character.
+- Drag the character and release it; it will jump back and forth.
+- Use the controller to move your component and change character.
+- Custom controller support.
 - Auto resizing support.
 
 ## Usage
@@ -54,10 +54,10 @@ const App = () => {
 | character        | Build in character image path | `takina` \| `chisato`     | `-` |
 | defaultCharacter | Deafult character image path  | `takina` \| `chisato`     | `takina` |
 | customCharacter  | Custom character image path   | `string`     | `-` |
-| onControlerClick | Set the handler to handle controler click event    | `() => void`  | `-` |
-| controlerSize    | Size of Controler             | `number` \| `string`  | `26` |
-| customControler  | Custom controler              | `ReactNode`  | `-` |
-| showControler    | Whether the controler is visible or not               | `boolean`  | `true` |
+| oncontrollerClick | Set the handler to handle controller click event    | `() => void`  | `-` |
+| controllerSize    | Size of controller             | `number` \| `string`  | `26` |
+| customcontroller  | Custom controller              | `ReactNode`  | `-` |
+| showcontroller    | Whether the controller is visible or not               | `boolean`  | `true` |
 
 ## License
 MIT
