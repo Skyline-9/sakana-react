@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/boiboif/sakana-react/main/src/assets/img/takina.png" height="160px">
 </p>
 
-# sakana-react-v2 <small>2.0.3</small>
+# sakana-react-v2 <small>2.0.4</small>
 
 > A fun sakana React widget.
 

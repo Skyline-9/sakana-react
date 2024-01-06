@@ -19,10 +19,10 @@ interface SakanaProps {
     character?: defaultCharacter;
     defaultCharacter?: defaultCharacter;
     customCharacter?: string;
-    onControlerClick?: () => void;
-    controlerSize?: number | string;
-    customControler?: React.ReactNode;
-    showControler?: boolean;
+    onControllerClick?: () => void;
+    controllerSize?: number | string;
+    customController?: React.ReactNode;
+    showController?: boolean;
 }
 
 const Sakana = (props: SakanaProps) => {
@@ -35,10 +35,10 @@ const Sakana = (props: SakanaProps) => {
         style,
         className,
         customCharacter,
-        onControlerClick,
-        customControler,
-        controlerSize = 26,
-        showControler = true,
+        onControllerClick,
+        customController,
+        controllerSize = 26,
+        showController = true,
     } = props;
     const [character, setCharacter] = useControllableValue<defaultCharacter>(props, {
         valuePropName: 'character',
@@ -89,7 +89,7 @@ const Sakana = (props: SakanaProps) => {
     //         if (!customCharacter) {
     //             setCharacter(character === 'chisato' ? 'takina' : 'chisato');
     //         }
-    //         onControlerClick?.();
+    //         onControllerClick?.();
     //     },
     // });
 
@@ -112,8 +112,8 @@ const Sakana = (props: SakanaProps) => {
         if (!customCharacter) {
             setCharacter((prevCharacter) => (prevCharacter === 'chisato' ? 'takina' : 'chisato'));
         }
-        onControlerClick?.();
-    }, [customCharacter, onControlerClick]);
+        onControllerClick?.();
+    }, [customCharacter, onControllerClick]);
 
     const { wrapperProps, control } = useDomMove({
         onControlClick: handleControlClick,
@@ -216,12 +216,12 @@ const Sakana = (props: SakanaProps) => {
                     alt=""
                 />
             </div>
-            {showControler && (
+            {showController && (
                 <div {...control()} style={{ position: 'absolute', right: -15, bottom: -15 }}>
-                    {customControler ?? (
+                    {customController ?? (
                         <img
                             style={{ cursor: 'move', userSelect: 'none' }}
-                            width={controlerSize}
+                            width={controllerSize}
                             draggable={false}
                             src={controlIcon}
                         />

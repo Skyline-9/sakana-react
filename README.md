@@ -54,10 +54,10 @@ const App = () => {
 | character        | Build in character image path | `takina` \| `chisato`     | `-` |
 | defaultCharacter | Deafult character image path  | `takina` \| `chisato`     | `takina` |
 | customCharacter  | Custom character image path   | `string`     | `-` |
-| oncontrollerClick | Set the handler to handle controller click event    | `() => void`  | `-` |
+| onControllerClick | Set the handler to handle controller click event    | `() => void`  | `-` |
 | controllerSize    | Size of controller             | `number` \| `string`  | `26` |
-| customcontroller  | Custom controller              | `ReactNode`  | `-` |
-| showcontroller    | Whether the controller is visible or not               | `boolean`  | `true` |
+| customController  | Custom controller              | `ReactNode`  | `-` |
+| showController    | Whether the controller is visible or not               | `boolean`  | `true` |
 
 ## License
 MIT

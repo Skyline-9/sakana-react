@@ -54,10 +54,10 @@ const App = () => {
 | character        | 角色图像(受控) | `takina` \| `chisato`     | `-` |
 | defaultCharacter | 默认角色图像  | `takina` \| `chisato`     | `takina` |
 | customCharacter  | 自定义角色图像   | `string`     | `-` |
-| onControlerClick | 控制器点击事件    | `() => void`  | `-` |
-| controlerSize    | 控制器大小             | `number` \| `string`  | `26` |
-| customControler  | 自定义控制器              | `ReactNode`  | `-` |
-| showControler    | 是否显示控制器               | `boolean`  | `true` |
+| onControllerClick | 控制器点击事件    | `() => void`  | `-` |
+| controllerSize    | 控制器大小             | `number` \| `string`  | `26` |
+| customController  | 自定义控制器              | `ReactNode`  | `-` |
+| showController    | 是否显示控制器               | `boolean`  | `true` |
 
 ## License
 MIT

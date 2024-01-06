@@ -1,6 +1,6 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/Skyline-9/sakana-react-v2/main/src/assets/img/chisato.png" height="160px">
-<img src="https://raw.githubusercontent.com/Skyline-9/sakana-react-v2/main/src/assets/img/takina.png" height="160px">
+<img src="https://raw.githubusercontent.com/Skyline-9/sakana-react/main/src/assets/img/chisato.png" height="160px">
+<img src="https://raw.githubusercontent.com/Skyline-9/sakana-react/main/src/assets/img/takina.png" height="160px">
 </p>
 
 # 🐟「Sakana! React!]
@@ -9,7 +9,7 @@
 
 [![NPM](https://img.shields.io/npm/v/sakana-react?style=for-the-badge)](https://www.npmjs.com/package/sakana-react)
 
-sakana-react-v2 is a react widget built with [react-spring](https://react-spring.io/).
+sakana-react-v2 is a widget react component built with [react-spring](https://react-spring.io/).
 
 <https://www.bbfbbf.cn/>
 
@@ -54,10 +54,10 @@ const App = () => {
 | character        | Build in character image path | `takina` \| `chisato`     | `-` |
 | defaultCharacter | Deafult character image path  | `takina` \| `chisato`     | `takina` |
 | customCharacter  | Custom character image path   | `string`     | `-` |
-| oncontrollerClick | Set the handler to handle controller click event    | `() => void`  | `-` |
+| onControllerClick | Set the handler to handle controller click event    | `() => void`  | `-` |
 | controllerSize    | Size of controller             | `number` \| `string`  | `26` |
-| customcontroller  | Custom controller              | `ReactNode`  | `-` |
-| showcontroller    | Whether the controller is visible or not               | `boolean`  | `true` |
+| customController  | Custom controller              | `ReactNode`  | `-` |
+| showController    | Whether the controller is visible or not               | `boolean`  | `true` |
 
 ## License
 MIT
